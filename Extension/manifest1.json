@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Malicious Webpage Detector",
+  "description": "This extension is about providing user a safe, secure web surfing that protect user from phishing, spoofing, adult content and blocking of annoying ads.",
+  "version": "1.0",
+  "author":"Kamlesh Gupta, Gunasekar Sivasankar, Rohit Gharal",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title":"Malicious Webpage Detector"
+  },
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/",
+    "tabs",
+    "<all_urls>"
+  ],
+    
+    "background":{
+    "scripts":["popup.js"]
+  }
+}
+
+
+

@@ -24,8 +24,8 @@ import sys
 from patterns import *
 
 # Path of your local server. Different for different OSs.
-LOCALHOST_PATH = "localhost/"
-DIRECTORY_NAME = "protection/Module"
+LOCALHOST_PATH = "localhost"
+DIRECTORY_NAME = "/malicious"
 
 
 def having_ip_address(url):
