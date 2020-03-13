@@ -1,6 +1,6 @@
 body{
    width:500px;
-   height:100px;
+   height:500px;
    display:inline-block;
    overflow: hidden;
    }
@@ -24,7 +24,7 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   
-  margin: 5em auto;
+  margin-top: 5em ;
   
   position: relative;
     top: initial;
@@ -40,7 +40,7 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   border: 1px solid #0D6;
   color: #FFF;
   overflow: hidden;
-  
+  outline: none;
   transition: all 0.5s;
 }
 
@@ -93,7 +93,7 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
   border-color: #0C5;
   right: 0;
   top: 50%;
-}
+} 
 
 #p1
 {
@@ -103,8 +103,8 @@ sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
 
 #div1
 {
-	vertical-align: middle; 
+	font-family: 'Indie Flower', cursive;
 	line-height: 50px; /* the same as your div height*/
-	text-align:center;
-	font-size:100px;
+	font-size:50px;
+    text-align:center;
 }
